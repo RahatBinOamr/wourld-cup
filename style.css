@@ -1,0 +1,31 @@
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 2%;
+padding: 2%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    gap: 30px;
+    background-color: black;
+    color: antiquewhite;
+    margin: 50px 40px 50px 40px;
+    padding: 30px;
+
+}
+.header h1{
+    font-size: 5vh;
+}
+.header a{
+    text-decoration: none;
+    color: azure;
+    background-color: tomato;
+    padding: 7px;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color: blueviolet;
+
+}
