@@ -96,6 +96,7 @@ padding: 2%;
     justify-content: space-evenly;
 }
 .footer{
+    width: 100%;
     text-align: center;
     background-color: black;
     padding: 50px;
