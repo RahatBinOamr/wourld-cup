@@ -95,3 +95,21 @@ padding: 2%;
 .extra{
     justify-content: space-evenly;
 }
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    color: azure;
+}
+.footer h2{
+    margin-bottom: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: darkgrey;
+    padding: 3px;
+}
+   
+.ancor{
+    padding-bottom: 20px;
+}
