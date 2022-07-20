@@ -90,7 +90,13 @@ padding: 2%;
 }
 .watch{
     box-shadow: 15px 15px 25px whitesmoke;
+    transition: width 1s , transform 1s;
 }
+.watch:hover{
+    width: 50%;
+    transform: rotate(30deg);
+}
+
 .watch p{
     text-align: center;
     font-size: 12px;
@@ -108,6 +114,13 @@ padding: 2%;
     background-color: black;
     padding: 50px;
     color: azure;
+}
+.footer i{
+    transition: width 1s , transform 1s;
+}
+.footer i:hover{
+    width: 5%;
+    transform: rotate(45deg);
 }
 .footer h2{
     margin-bottom: 50px;
