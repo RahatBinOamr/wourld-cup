@@ -48,11 +48,14 @@ padding: 2%;
    text-align: center;
 }
 .upcoming{
-    background-color: antiquewhite;
+    background-color:red;
     color: black;
     margin: 10px 8px;
     padding: 5px ;
     border-radius: 15px;
+}
+.upcoming:hover{
+    background-color: greenyellow;
 }
 .All{
     background-color: antiquewhite;
@@ -61,15 +64,18 @@ padding: 2%;
     padding: 5px ;
     border-radius: 15px;
 }
+.All:hover{
+    background-color:chartreuse ;
+}
 .Blog{
-    background-color: aqua;
+    background-color: antiquewhite;
     color: black;
     margin: 10px 20px;
     padding: 5px 10px;
     border-radius: 15px;
 }
 .Blog:hover{
-    background-color: red;
+    background-color: lightgreen;
 }
 .watch-main{
     display: grid;
