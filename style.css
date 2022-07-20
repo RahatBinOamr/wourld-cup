@@ -137,7 +137,8 @@ padding: 2%;
     
     .container{
         width: 100%;
-        flex-direction: row-reverse;
+       display: flex;
+      
     }
     .watch-main{
         width: 100%;

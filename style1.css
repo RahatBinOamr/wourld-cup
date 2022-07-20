@@ -1,0 +1,104 @@
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 2%;
+padding: 2%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    gap: 30px;
+    background-color: black;
+    color: antiquewhite;
+    margin: 50px 40px 50px 40px;
+    padding: 30px;
+
+}
+.header h1{
+    font-size: 5vh;
+}
+.header a{
+    text-decoration: none;
+    color: azure;
+    background-color: tomato;
+    padding: 7px;
+    border-radius: 10px;
+}
+.header a:hover{
+    background-color: blueviolet;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.manu{
+    background-color: black;
+    width: 30%;
+    height: 50%;
+    padding: 10px;
+}
+.manu a{
+    text-decoration: none;
+   display: grid;
+   grid-template: max-content;
+   grid-auto-columns: 200px;
+   text-align: center;
+}
+.upcoming{
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px 8px;
+    padding: 5px ;
+    border-radius: 15px;
+}
+.upcoming:hover{
+    background-color: chartreuse;
+}
+.All{
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px 8px;
+    padding: 5px ;
+    border-radius: 15px;
+}
+.All:hover{
+    background-color: aqua;
+}
+.Blog{
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Blog:hover{
+    background-color: goldenrod;
+}
+.watches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.watch1{
+    display: flex;
+    width: 20%;
+}
+.watch{
+    box-shadow: 15px 15px 25px whitesmoke;
+}
+.watch p{
+    text-align: center;
+    font-size: 12px;
+}
+.watch h4{
+    text-align: center;
+}
+.flg3 img{
+ width: 100%;
+ 
+}
